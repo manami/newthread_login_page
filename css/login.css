@@ -1,14 +1,15 @@
-.clearfix:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
+ass="fa fa-key" aria-hidden="true"></i>
+uclearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 .clearfix:after {clear: both;}
 .clearfix {zoom: 1;} /* IE < 8 */
 /* .clearfix {
-  padding-top: 20px;
+padding-top: 20px;
 }*/
 
 body {
@@ -19,9 +20,9 @@ body {
 }
 
 .gradient-primary {
-  background-image: -webkit-linear-gradient(top,#654a86,#534292);
-  background-image: linear-gradient(to bottom,#654a86,#534292);
-  background-color: #534292;
+  background-image: -webkit-linear-gradient(top,#379fea,#37ccea);
+  background-image: linear-gradient(to bottom,#379fea,#37ccea);
+  background-color: #37ccea;
   width: 100%;
   height: 100%;
 }
@@ -53,7 +54,7 @@ body {
 .login-box h3 {
   text-align: center;
   font-size: 24px;
-  color: #79589f;
+  color: #379fea;
   padding-top: 40px;
   font-weight: 200;
   line-height: 1.1;
@@ -65,16 +66,18 @@ body {
   margin-bottom: 15px;
 }
 
-form .icon-username {
+form .fa-user {
+  color: #379fea;
   position: relative;
-    top: 30px;
-    left: -155px;
+  top: 30px;
+  left: -155px;
 }
 
-form .icon-password {
-    position: relative;
-    top: 30px;
-    left: -155px;
+form .fa-key {
+  color: #379fea;
+  position: relative;
+  top: 30px;
+  left: -155px;
 }
 
 .form-control {
@@ -107,16 +110,16 @@ form .icon-password {
   vertical-align: middle;
   text-align: center;
   cursor: pointer;
-  background-color: #79589f;
-  background-image: -webkit-gradient(linear,right top,left bottom,color-stop(0,rgba(159,88,150,0)),color-stop(1,rgba(159,88,150,0.6)));
-  background-image: -o-linear-gradient(left bottom,rgba(159,88,150,0) 0,rgba(159,88,150,0.6) 100%);
-  background-image: -moz-linear-gradient(left bottom,rgba(159,88,150,0) 0,rgba(159,88,150,0.6) 100%);
-  background-image: -webkit-linear-gradient(left bottom,rgba(159,88,150,0) 0,rgba(159,88,150,0.6) 100%);
-  background-image: -ms-linear-gradient(left bottom,rgba(159,88,150,0) 0,rgba(159,88,150,0.6) 100%);
+  background-color: #379fea;
+  background-image: -webkit-gradient(linear,right top,left bottom,color-stop(0,rgb(101,181,239,0.65)),color-stop(1,rgb(32,148,232,0.65)));
+  background-image: -o-linear-gradient(left bottom,rgb(101,181,239,0.65) 0,rgb(32,148,232,0.65) 100%);
+  background-image: -moz-linear-gradient(left bottom,rgb(101,181,239,0.65) 0,rgb(32,148,232,0.65) 100%);
+  background-image: -webkit-linear-gradient(left bottom,rgb(101,181,239,0.65) 0,rgb(32,148,232,0.65) 100%);
+  background-image: -ms-linear-gradient(left bottom,rgb(101,181,239,0.65) 0,rgb(32,148,232,0.65) 100%);
   background-image: linear,to
 }
 
-button:hover {
-    color: #fff;
-    background-color: #6c4f8f;
+.button button:hover {
+  color: #fff;
+  background-color: #2095e8;
 }
